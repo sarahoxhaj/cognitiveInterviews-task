@@ -25,7 +25,8 @@
                 Participation involves a think-aloud task, where you will be asked to verbalize your thoughts while
                 rating
                 16 items on a Likert scale evaluating visual complexity. Before the main task, you will complete a
-                short training exercise to get familiar with the think-aloud method. This part is not analyzed as data.
+                short training exercise to get familiar with the think-aloud method and then complete 3 data-reading
+                tasks. This training exercise is not analyzed as data.
                 The full session (excluding the training task) will be <u>audio and screen-recorded</u> for data
                 collection
                 and quality-review purposes. The survey also includes a brief background questionnaire.

@@ -10,8 +10,8 @@
 
                     <div class="max-w-2xl mt-52">
                         <p class="text-gray-900 dark:text-white">
-                            During this process, were there any statements you found confusing or difficult to rate?
-                            <br>If so, please describe which ones and why.
+                            Do you think your answers would have been different if you had not completed the task
+                            beforehand?
                         </p><br>
                         <textarea v-model="additionalComment" id="additionalComment" rows="4"
                             class="dark:text-black mt-4 rounded-lg px-0 w-full border-[1.5px] border-gray-400 focus:ring-0 focus:outline-none dark:placeholder-gray-400 bg-gray-50"
@@ -60,6 +60,15 @@ export default {
                 };
 
                 await addDoc(collection(db, "userData"), userData);
+
+                const taskData = {
+                    q1Answer: sessionStorage.getItem("q1Answer"),
+                    q2Answer: sessionStorage.getItem("q2Answer"),
+                    q3Answer: sessionStorage.getItem("q3Answer"),
+                }
+
+                await addDoc(collection(db, "taskData"), taskData);
+
 
                 const ratingsData = {
                     userID: userID,

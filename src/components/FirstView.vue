@@ -37,7 +37,7 @@
             visualization.</p>
         <p class="mt-5 max-w-5xl text-center dark:text-white
             ">
-            <b>What this involves:</b> a ~30-minute online session where you will think aloud while rating a data
+            <b>What this involves:</b> a ~40-minute online session where you will first complete 3 data-reading tasks and then think aloud while rating a data
             visualization. <br>The session will be audio- and screen-recorded.
         </p>
         <p class="mt-5 dark:text-white">

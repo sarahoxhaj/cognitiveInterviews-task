@@ -60,7 +60,7 @@ export default {
 
             sessionStorage.setItem("practiceRating", this.practiceRating);
 
-            this.$router.replace({ name: 'ItemValidation' });
+            this.$router.replace({ name: 'TaskView' });
             this.$nextTick(() => window.scrollTo(0, 0));
         }
     }

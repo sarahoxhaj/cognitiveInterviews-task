@@ -7,6 +7,7 @@ import ItemValidation from "./components/ItemValidation.vue"
 import LastView from "./components/LastView.vue"
 import PostQuestionnaire from "./components/PostQuestionnaire.vue";
 import TrainingTask from "./components/TrainingTask.vue";
+import TaskView from "./components/TaskView.vue";
 
 const routes = [
   {
@@ -43,7 +44,12 @@ const routes = [
     path: "/TrainingTask",
     name: "TrainingTask",
     component: TrainingTask,
-  }
+  },
+  {
+    path: "/TaskView",
+    name: "TaskView",
+    component: TaskView,
+  },
 ];
 
 const router = createRouter({
