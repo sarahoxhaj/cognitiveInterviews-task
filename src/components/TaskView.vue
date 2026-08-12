@@ -35,8 +35,8 @@
                                 <input type="radio" name="q1" value="D1" class="mr-2">
                                 About 25%
                             </label>
-                        </div> <br>
-                        <div class="text-left">
+                        </div>
+                        <div class="text-left mt-5">
                             <p><b>2.</b> Countries in this chart are sorted from the richest to the poorest (top to bottom) by
                                 income per capita. Looking specifically at “Family wealth or connections” column, which
                                 statement best describes what the data shows?</p>
@@ -59,8 +59,8 @@
                                 <input type="radio" name="q2" value="D2" class="mr-2">
                                 Every country shows roughly the same percentage for family wealth/connections.
                             </label>
-                        </div> <br>
-                        <div class="text-left">
+                        </div>
+                        <div class="text-left mt-10">
                             <p><b>3.</b> If you had to summarize this chart in one sentence, what would you say?</p>
                             <textarea id="message" rows="1" v-model="visMessage"
                                 class="mt-2 required rounded-lg bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand block w-full p-3.5 shadow-xs placeholder:text-body"
