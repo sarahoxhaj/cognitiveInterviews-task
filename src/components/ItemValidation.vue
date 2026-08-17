@@ -400,7 +400,7 @@ export default {
                     practiceRating: sessionStorage.getItem("practiceRating"),
                 };
 
-                await addDoc(collection(db, "userData"), userData);
+                //await addDoc(collection(db, "userData"), userData);
 
                 const taskData = {
                     q1Answer: sessionStorage.getItem("q1Answer"),
@@ -408,7 +408,7 @@ export default {
                     q3Answer: sessionStorage.getItem("q3Answer"),
                 };
 
-                await addDoc(collection(db, "taskData"), taskData);
+                //await addDoc(collection(db, "taskData"), taskData);
 
                 const ratingsData = {
                     userID: this.userID,
@@ -416,9 +416,16 @@ export default {
                     additionalComment: "",
                 };
 
-                await addDoc(collection(db, "item-ratings"), ratingsData);
+                //await addDoc(collection(db, "item-ratings"), ratingsData);
 
-                this.$router.replace({ name: 'LastView' });
+                await Promise.all([
+                    addDoc(collection(db, "userData"), userData),
+                    addDoc(collection(db, "taskData"), taskData),
+                    addDoc(collection(db, "item-ratings"), ratingsData)
+                ]);
+
+                // this.$router.replace({ name: 'LastView' });
+                await this.$router.replace({ name: 'LastView' });
 
             } catch (error) {
                 console.error("Error saving data:", error);
