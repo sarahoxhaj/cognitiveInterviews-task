@@ -38,7 +38,8 @@
                             </label>
                         </div>
                         <div class="text-left mt-5">
-                            <p><b>2.</b> Countries in this chart are sorted from the richest to the poorest (top to bottom) by
+                            <p><b>2.</b> Countries in this chart are sorted from the richest to the poorest (top to
+                                bottom) by
                                 income per capita. Looking specifically at “Family wealth or connections” column, which
                                 statement best describes what the data shows?</p>
                             <label class="flex items-center dark:text-white mt-2">
@@ -62,11 +63,11 @@
                             </label>
                         </div>
                         <div class="text-left mt-10">
-                            <p><b>3.</b> If you had to summarize this chart in one sentence, what would you say?</p>
+                            <p><b>3.</b> What would you say is the main takeaway from this chart, if anything?</p>
                             <textarea id="message" rows="1" v-model="visMessage"
                                 class="mt-2 required dark:text-black rounded-lg bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand block w-full p-3.5 shadow-xs placeholder:text-body"
                                 placeholder="Write your thoughts here..."></textarea>
-                        </div> 
+                        </div>
                         <!-- <p> HERE FINISHES THE FIRST VIS </p> -->
 
 
@@ -114,7 +115,7 @@
                             </label>
                         </div>
                         <div class="text-left mt-10">
-                            <p><b>3.</b> If you had to summarize this chart in one sentence, what would you say?</p>
+                            <p><b>3.</b> What would you say is the main takeaway from this chart, if anything?</p>
                             <textarea id="message" rows="1" v-model="visMessage"
                                 class="mt-2 required rounded-lg bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand block w-full p-3.5 shadow-xs placeholder:text-body"
                                 placeholder="Write your thoughts here..."></textarea>
@@ -167,7 +168,7 @@
                             </label>
                         </div>
                         <div class="text-left mt-10">
-                            <p><b>3.</b> If you had to summarize this chart in one sentence, what would you say?</p>
+                            <p><b>3.</b> What would you say is the main takeaway from this chart, if anything?</p>
                             <textarea id="message" rows="1" v-model="visMessage"
                                 class="mt-2 required rounded-lg bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand block w-full p-3.5 shadow-xs placeholder:text-body"
                                 placeholder="Write your thoughts here..."></textarea>
