@@ -26,7 +26,7 @@
 
     </div> -->
 
-    <div class="bg-gray-50 dark:bg-slate-600 flex flex-col items-center justify-start min-h-screen">
+    <div class="bg-gray-50 dark:bg-slate-600 flex flex-col items-center justify-center min-h-screen">
         <p class="mb-2 text-2xl tracking-tight text-gray-900 dark:text-white mt-14">Visual Complexity in Data
             Visualizations: Scale Development</p>
         <p class="mt-5 max-w-5xl text-center dark:text-white">
