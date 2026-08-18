@@ -1,8 +1,8 @@
 <template>
 
-    <div class="bg-gray-50 dark:bg-slate-600 flex flex-col min-h-screen">
+    <div class="bg-gray-50 dark:bg-slate-600 flex flex-col items-center justify-center min-h-screen">
         <p class="mb-2 text-2xl tracking-tight text-gray-900 dark:text-white mt-7 text-center">Background</p>
-        <div class="text-left px-24 mt-7">
+        <div class="text-left max-w-2xl mx-auto px-6 mt-7 w-full">
             <p>
                 <span class="text-red-500 text-2xl">* </span>
                 <span class="dark:text-white"> <b>Which gender do you identify with?</b></span>
@@ -38,7 +38,7 @@
                     </p>
 
                     <select v-model="age" id="age" required
-                        class="ml-6 dark:bg-slate-200 bg-gray-50 border border-gray-300 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-80 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                        class="mt-2 ml-6 dark:bg-slate-200 bg-gray-50 border border-gray-300 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-80 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500">
                         <option value="" disabled class="dark:text-zinc-400">age group</option>
                         <option value="18-24" class="dark:text-zinc-400">18-24</option>
                         <option value="25-34" class="dark:text-zinc-400">25-34</option>
@@ -57,7 +57,7 @@
                 </p>
 
                 <select v-model="education" id="education" required
-                    class="ml-6 dark:bg-slate-200 bg-gray-50 border border-gray-300 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-80 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                    class="mt-2 ml-6 dark:bg-slate-200 bg-gray-50 border border-gray-300 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-80 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500">
                     <option value="" disabled class="dark:text-zinc-400">level of education</option>
                     <option value="high-school" class="dark:text-zinc-400">High school diploma or equivalent</option>
                     <option value="some-college" class="dark:text-zinc-400">Some college, no degree</option>
@@ -118,7 +118,7 @@ export default {
                 alert("Please select your highest level of education.");
                 return;
             }
-            
+
             sessionStorage.setItem("userID", userID);
             sessionStorage.setItem("gender", gender);
             sessionStorage.setItem("education", education);
