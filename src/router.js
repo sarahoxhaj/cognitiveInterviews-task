@@ -8,6 +8,7 @@ import LastView from "./components/LastView.vue"
 import PostQuestionnaire from "./components/PostQuestionnaire.vue";
 import TrainingTask from "./components/TrainingTask.vue";
 import TaskView from "./components/TaskView.vue";
+import OverviewView from "./components/OverviewView.vue";
 
 const routes = [
   {
@@ -49,6 +50,11 @@ const routes = [
     path: "/TaskView",
     name: "TaskView",
     component: TaskView,
+  },
+  {
+    path: "/OverviewView",
+    name: "OverviewView",
+    component: OverviewView,
   },
 ];
 
