@@ -35,7 +35,7 @@
             data
             visualization.</p>
         <p class="mt-5 max-w-5xl text-center dark:text-white">
-            <b>In this survey you will</b> be asked to rate 16 statements from <i>strongly disagree</i>
+            <b>In this survey you will</b> need to complete three simple tasks and then rate 16 statements from <i>strongly disagree</i>
             to <i>strongly agree</i> and say out loud what you are thinking as you are rating each statement. Before
             starting, you will complete a short task only to get familiar with this method. The full session
             (excluding the training task) will be audio and screen-recorded. This is done only for data

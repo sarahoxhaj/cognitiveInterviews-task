@@ -21,7 +21,7 @@
 export default {
     name: 'LastView',
     methods: {
-        goToLastViewThanks() {
+        goToOverview() {
             //this.$router.push('/LastViewThanks');
             this.$router.replace({ name: 'OverviewView' });
         }
