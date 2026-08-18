@@ -393,8 +393,8 @@ export default {
         },
 
         async submitSurvey() {
-            if (this.isSubmitting) return;
-            this.isSubmitting = true;
+            // if (this.isSubmitting) return;
+            // this.isSubmitting = true;
 
             try {
                 const userData = {
