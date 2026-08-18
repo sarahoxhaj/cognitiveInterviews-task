@@ -11,10 +11,10 @@
                     </div>
 
                     <div class="max-w-2xl mr-5">
-                        <p class="text-gray-900 dark:text-white mb-5">
+                        <!-- <p class="text-gray-900 dark:text-white mb-5">
                             Below are three tasks that ask you to read specific information from the given
                             visualization.
-                        </p><br>
+                        </p><br> -->
                         <!-- <p> THESE ARE FOR THE FIRST VIS </p> -->
                         <div class="text-left">
                             <p><b>1.</b> According to the chart, approximately what percentage of 15- to 24-year-olds in
