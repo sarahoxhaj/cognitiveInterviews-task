@@ -20,7 +20,7 @@
                     <p class="mt-5 mb-5">I can easily find the average wedding cost in Spain in this visualization.</p>
                     <div class="w-full max-w-md mx-auto">
                         <input type="range" min="1" max="5" step="1" list="tickmarks" v-model="practiceRating"
-                            class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer accent-blue-600 dark:bg-gray-700" />
+                            class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer accent-blue-600 dark:text-white" />
                         <datalist id="tickmarks" class="flex justify-between w-full px-[2px]">
                             <option value="1"></option>
                             <option value="2"></option>
@@ -28,14 +28,14 @@
                             <option value="4"></option>
                             <option value="5"></option>
                         </datalist>
-                        <div class="flex justify-between text-sm text-gray-600 dark:text-gray-300 mt-1 px-[9px]">
+                        <div class="flex justify-between text-sm text-gray-600 dark:text-white-300 mt-1 px-[9px]">
                             <span>1</span>
                             <span>2</span>
                             <span>3</span>
                             <span>4</span>
                             <span>5</span>
                         </div>
-                        <div class="flex justify-between text-xs text-gray-800 dark:text-gray-400 mt-0.5 px-[9px]">
+                        <div class="flex justify-between text-xs text-gray-800 dark:text-white mt-0.5 px-[9px]">
                             <span>Strongly <br>disagree</span>
                             <span></span>
                             <span></span>
