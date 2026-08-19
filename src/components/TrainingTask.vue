@@ -28,7 +28,7 @@
                             <option value="4"></option>
                             <option value="5"></option>
                         </datalist>
-                        <div class="flex justify-between text-sm text-gray-600 dark:text-white-300 mt-1 px-[9px]">
+                        <div class="flex justify-between text-sm text-gray-600 dark:text-gray-300 mt-1 px-[9px]">
                             <span>1</span>
                             <span>2</span>
                             <span>3</span>
