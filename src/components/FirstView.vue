@@ -28,14 +28,14 @@
 
     <div class="bg-gray-50 dark:bg-slate-600 flex flex-col items-center justify-center min-h-screen">
         <p class="mb-2 text-2xl tracking-tight text-gray-900 dark:text-white mt-14">Visual Complexity in Data
-            Visualizations: Scale Development</p>
+            Visualizations</p>
         <p class="mt-5 max-w-5xl text-center dark:text-white">
             Do you notice when a design or image feels <i>"too much"</i> to look at? We want to find out what makes it
             feel that way. <br>Our goal is to develop a scale that can be used to evaluate the visual complexity of a
             data
             visualization.</p>
         <p class="mt-5 max-w-5xl text-center dark:text-white">
-            <b>In this survey you will</b> need to complete three simple tasks and then rate 16 statements from <i>strongly disagree</i>
+            <b>In this survey you will</b> be asked to rate 16 statements from <i>strongly disagree</i>
             to <i>strongly agree</i> and say out loud what you are thinking as you are rating each statement. Before
             starting, you will complete a short task only to get familiar with this method. The full session
             (excluding the training task) will be audio and screen-recorded. This is done only for data
@@ -43,13 +43,20 @@
             and quality-review purposes.
         </p>
 
-        <p class="mt-5 dark:text-white">Taking part is <b>voluntary</b>, and you can stop at any time without giving a reason. If
+        <p class="mt-2 max-w-5xl text-center dark:text-white">
+            No prior knowledge needed!<br>
+            There are no right or wrong answers, we are just interested in your honest
+            reaction and your thought process.
+        </p>
+
+        <p class="mt-8 dark:text-white">Taking part is <b>voluntary</b>, and you can stop at
+            any time without giving a reason. If
             you choose to stop, your data will <br>not be included in the analysis and there will be no consequences.
         </p>
 
-        <p class="mt-5 dark:text-white">We <b>do not collect</b> any information that can <b>identify</b> you, such as your name or
-            email address. However, because the conversation <br>is recorded, your voice may be recognizable to the
-            research team. Only the research team will have access to the recordings, and they <br>will be deleted after
+        <p class="mt-5 dark:text-white">We <b>do not collect</b> any information that can <b>identify</b> you, such as
+            your name or
+            email address. Only the research team will have access to the records, and they <br>will be deleted after
             the analysis is complete. Any results shared publicly will be anonymized and will not include the
             recordings.</p>
 
