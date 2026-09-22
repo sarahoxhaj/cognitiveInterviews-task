@@ -16,7 +16,7 @@
                             visualization.
                         </p><br> -->
                         <!-- <p> THESE ARE FOR THE FIRST VIS </p> -->
-                        <div class="text-left">
+                        <div class="text-left mt-5">
                             <p><b>1.</b> According to the chart, approximately what percentage of 15- to 24-year-olds in
                                 Germany
                                 choose “Education” as the most important factor in determining success?</p>
