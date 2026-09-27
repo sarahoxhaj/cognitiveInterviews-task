@@ -64,7 +64,8 @@ export default {
     },
     methods: {
         goToBackgroundView() {
-
+            const userID = Math.floor(10000 + Math.random() * 90000).toString();
+            sessionStorage.setItem("userID", userID);
             sessionStorage.setItem("practiceRating", this.practiceRating);
 
             this.$router.replace({ name: 'TaskView' });

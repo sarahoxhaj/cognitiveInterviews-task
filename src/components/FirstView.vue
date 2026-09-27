@@ -73,7 +73,8 @@ export default {
     methods: {
         goToConsentForm() {
             // this.$router.push('/ConsentForm');
-            this.$router.replace({ name: 'BackgroundView' });
+            // this.$router.replace({ name: 'BackgroundView' });
+            this.$router.replace({ name: 'TrainingTask' });
             this.$nextTick(() => window.scrollTo(0, 0));
         }
     }
