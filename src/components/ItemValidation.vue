@@ -177,14 +177,18 @@ export default {
         },
 
         async submitSurvey() {
-
             try {
+                const timestamp = new Date().toLocaleString("sv-SE", {
+                    timeZone: "Europe/Vienna"
+                });
+
                 const userData = {
                     id: this.userID,
                     gender: sessionStorage.getItem("gender"),
                     age: sessionStorage.getItem("age"),
                     education: sessionStorage.getItem("education"),
                     practiceRating: sessionStorage.getItem("practiceRating"),
+                    timestamp,
                 };
 
                 //await addDoc(collection(db, "userData"), userData);
@@ -193,6 +197,7 @@ export default {
                     q1Answer: sessionStorage.getItem("q1Answer"),
                     q2Answer: sessionStorage.getItem("q2Answer"),
                     q3Answer: sessionStorage.getItem("q3Answer"),
+                    timestamp,
                 };
 
                 //await addDoc(collection(db, "taskData"), taskData);
@@ -202,6 +207,7 @@ export default {
                     ratings: this.ratings,
                     itemOrder: this.questions.map(q => q.id),
                     additionalComment: "",
+                    timestamp,
                 };
 
                 //await addDoc(collection(db, "item-ratings"), ratingsData);
