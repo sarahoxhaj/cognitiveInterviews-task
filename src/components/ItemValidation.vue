@@ -7,55 +7,58 @@
 
             <div v-else class="mt-20">
                 <div class="flex flex-row justify-center gap-x-20">
-
-                    <div class="shrink-0 self-start">
+                    <div class="shrink-0 self-start relative">
+                        <div class="absolute -top-8 right-0 text-sm font-medium text-gray-700 dark:text-gray-200">
+                            <b>{{ currentIndex + 1 }}/{{ questions.length }}</b>
+                        </div>
                         <img src="@/assets/1.png" alt="Image 1" class="size-[580px] mt-10">
                         <!-- <img src="@/assets/2.png" alt="Image 2" class="size-[580px] mt-10"> -->
                         <!-- <img src="@/assets/3.png" alt="Image 3" class="w-[750px] mt-20 ml-5"> -->
-                    </div>
 
-                    <div class="w-[372px] shrink-0 self-start mt-20">
-                        <p class="mt-5 mb-5">{{ currentQuestion.text }}</p>
+                        <div class="w-[372px] shrink-0 self-start mt-20">
+                            <p class="mt-5 mb-5">{{ currentQuestion.text }}</p>
 
-                        <div class="flex items-start gap-4">
-                            <div class="w-full">
-                                <input type="range" min="1" max="5" step="1" v-model="currentValue" list="tickmarks"
-                                    :disabled="dontKnow"
-                                    class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer accent-blue-600 dark:text-white disabled:opacity-40 disabled:cursor-not-allowed" />
-                                <datalist id="tickmarks" class="flex justify-between w-full px-[2px]">
-                                    <option value="1"></option>
-                                    <option value="2"></option>
-                                    <option value="3"></option>
-                                    <option value="4"></option>
-                                    <option value="5"></option>
-                                </datalist>
-                                <div
-                                    class="flex justify-between text-sm text-gray-600 dark:text-gray-300 mt-1 px-[9px]">
-                                    <span>1</span>
-                                    <span>2</span>
-                                    <span>3</span>
-                                    <span>4</span>
-                                    <span>5</span>
-                                </div>
-                                <div class="flex justify-between text-xs text-gray-800 dark:text-white mt-0.5 px-[9px]">
-                                    <span>Strongly <br>disagree</span>
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                    <span>Strongly <br>agree</span>
+                            <div class="flex items-start gap-4">
+                                <div class="w-full">
+                                    <input type="range" min="1" max="5" step="1" v-model="currentValue" list="tickmarks"
+                                        :disabled="dontKnow"
+                                        class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer accent-blue-600 dark:text-white disabled:opacity-40 disabled:cursor-not-allowed" />
+                                    <datalist id="tickmarks" class="flex justify-between w-full px-[2px]">
+                                        <option value="1"></option>
+                                        <option value="2"></option>
+                                        <option value="3"></option>
+                                        <option value="4"></option>
+                                        <option value="5"></option>
+                                    </datalist>
+                                    <div
+                                        class="flex justify-between text-sm text-gray-600 dark:text-gray-300 mt-1 px-[9px]">
+                                        <span>1</span>
+                                        <span>2</span>
+                                        <span>3</span>
+                                        <span>4</span>
+                                        <span>5</span>
+                                    </div>
+                                    <div
+                                        class="flex justify-between text-xs text-gray-800 dark:text-white mt-0.5 px-[9px]">
+                                        <span>Strongly <br>disagree</span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span>Strongly <br>agree</span>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <button @click="toggleDontKnow" type="button"
-                            :class="dontKnow
-                                ? 'bg-sky-900 text-white border-sky-900 dark:bg-blue-600 dark:border-blue-600'
-                                : 'bg-white text-gray-900 border-gray-200 hover:bg-gray-100 hover:text-blue-700 dark:text-black dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-400'"
-                            class="mt-8 shrink-0 py-2 px-2 text-sm font-medium rounded-lg border focus:outline-none focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700">
-                            I do not know
-                        </button>
-                        <div class="mt-10">
-                            <button @click="nextStep" type="submit"
-                                class="bg-sky-900 hover:bg-sky-800 text-white px-4 py-2 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Next</button>
+                            <button @click="toggleDontKnow" type="button"
+                                :class="dontKnow
+                                    ? 'bg-sky-900 text-white border-sky-900 dark:bg-blue-600 dark:border-blue-600'
+                                    : 'bg-white text-gray-900 border-gray-200 hover:bg-gray-100 hover:text-blue-700 dark:text-black dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-400'"
+                                class="mt-8 shrink-0 py-2 px-2 text-sm font-medium rounded-lg border focus:outline-none focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700">
+                                I do not know
+                            </button>
+                            <div class="mt-10">
+                                <button @click="nextStep" type="submit"
+                                    class="bg-sky-900 hover:bg-sky-800 text-white px-4 py-2 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Next</button>
+                            </div>
                         </div>
                     </div>
                 </div>
