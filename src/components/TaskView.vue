@@ -95,7 +95,7 @@
                                 December
                             </label>
                         </div>
-                        <div class="text-left mt-5">
+                        <div class="text-left mt-10">
                             <p><b>2.</b> Looking only at the 2023 line, what is the approximate range between its lowest
                                 and highest monthly values over the course of the year?</p>
                             <label class="flex items-center dark:text-white mt-2">
