@@ -15,8 +15,9 @@
                             Below are three tasks that ask you to read specific information from the given
                             visualization.
                         </p><br> -->
+
                         <!-- <p> THESE ARE FOR THE FIRST VIS </p> -->
-                        <div class="text-left mt-5">
+                        <!-- <div class="text-left mt-5">
                             <p><b>1.</b> According to the chart, approximately what percentage of 15- to 24-year-olds in
                                 Germany
                                 choose “Education” as the most important factor in determining success?</p>
@@ -67,14 +68,14 @@
                             <textarea id="message" rows="1" v-model="visMessage"
                                 class="mt-2 required dark:text-black rounded-lg bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand block w-full p-3.5 shadow-xs placeholder:text-body"
                                 placeholder="Write your thoughts here..."></textarea>
-                        </div>
+                        </div> -->
                         <!-- <p> HERE FINISHES THE FIRST VIS </p> -->
 
 
 
 
                         <!-- <p> THESE ARE FOR THE SECOND VIS </p> -->
-                        <!-- <div class="text-left">
+                        <div class="text-left">
                             <p><b>1.</b> Looking at the 2023 line, which month shows the most unusual or unexpected
                                 change compared to the pattern of the months right before and after it?</p>
                             <label class="flex items-center dark:text-white mt-2">
@@ -119,7 +120,7 @@
                             <textarea id="message" rows="1" v-model="visMessage"
                                 class="mt-2 required rounded-lg bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand block w-full p-3.5 shadow-xs placeholder:text-body"
                                 placeholder="Write your thoughts here..."></textarea>
-                        </div> -->
+                        </div>
                         <!-- <p> HERE FINISHES THE SECOND VIS </p> -->
 
 
