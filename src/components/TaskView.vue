@@ -10,7 +10,7 @@
                         <!-- <img src="@/assets/3.png" alt="Image 3" class="w-[750px] mt-20 ml-5"> -->
                     </div>
 
-                    <div class="max-w-2xl mr-5">
+                    <div class="max-w-2xl mr-5 mt-10">
                         <!-- <p class="text-gray-900 dark:text-white mb-5">
                             Below are three tasks that ask you to read specific information from the given
                             visualization.
