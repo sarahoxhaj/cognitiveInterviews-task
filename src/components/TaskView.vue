@@ -6,8 +6,8 @@
 
                     <div class="shrink-0">
                         <!-- <img src="@/assets/1.png" alt="Image 1" class="size-[580px] mt-10"> -->
-                        <img src="@/assets/2.png" alt="Image 2" class="size-[580px] mt-10">
-                        <!-- <img src="@/assets/3.png" alt="Image 3" class="w-[750px] mt-20 ml-5"> -->
+                        <!-- <img src="@/assets/2.png" alt="Image 2" class="size-[580px] mt-10"> -->
+                        <img src="@/assets/3.png" alt="Image 3" class="w-[750px] mt-20 ml-5">
                     </div>
 
                     <div class="max-w-2xl mr-5 mt-10">
@@ -75,7 +75,7 @@
 
 
                         <!-- <p> THESE ARE FOR THE SECOND VIS </p> -->
-                        <div class="text-left">
+                        <!-- <div class="text-left">
                             <p><b>1.</b> Looking at the 2023 line, which month shows the most unusual or unexpected
                                 change compared to the pattern of the months right before and after it?</p>
                             <label class="flex items-center dark:text-white mt-2">
@@ -120,14 +120,14 @@
                             <textarea id="message" rows="1" v-model="visMessage"
                                 class="mt-2 required rounded-lg bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand block w-full p-3.5 shadow-xs placeholder:text-body"
                                 placeholder="Write your thoughts here..."></textarea>
-                        </div>
+                        </div> -->
                         <!-- <p> HERE FINISHES THE SECOND VIS </p> -->
 
 
 
 
                         <!-- <p> THESE ARE FOR THE THIRD VIS </p> -->
-                        <!-- <div class="text-left">
+                        <div class="text-left">
                             <p><b>1.</b> Which of the following best describes the dominant climate risk pattern across
                                 the Southwest region of the U.S.?</p>
                             <label class="flex items-center dark:text-white mt-2">
@@ -173,7 +173,7 @@
                             <textarea id="message" rows="1" v-model="visMessage"
                                 class="mt-2 required rounded-lg bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand block w-full p-3.5 shadow-xs placeholder:text-body"
                                 placeholder="Write your thoughts here..."></textarea>
-                        </div> -->
+                        </div> 
                         <!-- <p> HERE FINISHES THE THIRD VIS </p> -->
 
 
