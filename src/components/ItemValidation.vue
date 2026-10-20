@@ -192,6 +192,7 @@ export default {
                     age: sessionStorage.getItem("age"),
                     education: sessionStorage.getItem("education"),
                     practiceRating: sessionStorage.getItem("practiceRating"),
+                    colorVisionDeficiency: sessionStorage.getItem("colorVisionDeficiency") ,
                     timestamp,
                 };
 
