@@ -48,7 +48,7 @@ export default {
         return {
             ratings: JSON.parse(sessionStorage.getItem("ratings") || "{}"),
             currentPage: 1,
-            itemsPerPage: 13,
+            itemsPerPage: 14,
             questionLabels: {
                 q1: "I find this visualization easy to interpret.",
                 q2: "I find this visualization easy to understand.",
