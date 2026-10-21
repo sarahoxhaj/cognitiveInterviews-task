@@ -11,8 +11,8 @@
                 </div>
                 <div class="flex flex-row items-start justify-center gap-x-20 w-[1200px]">
                     <div class="w-[780px] shrink-0 self-start relative flex justify-center">
-                        <img src="@/assets/1.png" alt="Image 1" class="size-[580px] mt-10">
-                        <!-- <img src="@/assets/2.png" alt="Image 2" class="size-[580px] mt-10"> -->
+                        <!-- <img src="@/assets/1.png" alt="Image 1" class="size-[580px] mt-10"> -->
+                        <img src="@/assets/2.png" alt="Image 2" class="size-[580px] mt-10">
                         <!-- <img src="@/assets/3.png" alt="Image 3" class="w-[750px] mt-20 ml-5"> -->
                         <!-- <img src="@/assets/3.png" alt="Image 3" class="max-w-full max-h-[600px] object-contain mt-20"> -->
 
@@ -192,7 +192,7 @@ export default {
                     age: sessionStorage.getItem("age"),
                     education: sessionStorage.getItem("education"),
                     practiceRating: sessionStorage.getItem("practiceRating"),
-                    colorVisionDeficiency: sessionStorage.getItem("colorVisionDeficiency") ,
+                    colorVisionDeficiency: sessionStorage.getItem("colorVisionDeficiency"),
                     timestamp,
                 };
 
